@@ -4,9 +4,10 @@
     { "id": "234", "objectIDs": [ "Post 2", "Liu2 2"] },
     { "id": "345", "objectIDs": [ "Post 3", "Liu2 3"] }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "acks": [
+    { "id": "123", "status": "processing" },
+    { "id": "234", "status": "done" },
+    { "id": "345", "status": "done" }
   ],
   "profile": {
     "name": "typicode"
